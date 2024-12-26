@@ -1,3 +1,10 @@
+**NAME:HARISH S**
+
+**REG NO:24901078**
+
+**EXP NO:4 FULL ADDER AND FULL SUBRACTOR**
+
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -6,15 +13,15 @@ Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 To design a Full Adder and Full Subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
-**Equipments Required:**
+**EQUIPMENTS REQUIRED:**
 
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
 
-**Full Adder and Full Subtractor**
+**FULL ADDER AND FULL SUBRACTOR**
 
-**Full Adder**
+**FULL ADDER**
 
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
@@ -26,7 +33,7 @@ Carry = AB + ACin + BCin
 
 **Figure -1 FULL ADDER**
 
-**Full Subtractor**
+**FULL SUBRACTOR**
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
@@ -37,21 +44,37 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+**FULL ADDER**
 
-**Procedure**
+![image](https://github.com/user-attachments/assets/74f06b74-90a2-4fb0-8fe0-bf90014e8ca8)
 
-Write the detailed procedure here
 
-**Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+**FULL SUBRACTOR**
 
-**RTL Schematic**
+![image](https://github.com/user-attachments/assets/f367a031-cf85-4117-80a0-265dbe0a9eea)
 
-**Output Timing Waveform**
 
-**Result:**
+
+**PROGRAM**
+
+![image](https://github.com/user-attachments/assets/19f6f469-ae3f-46fc-a3dc-49e4b1c26d59)
+
+
+
+**RTL VIEWER**
+
+![image](https://github.com/user-attachments/assets/4086364e-c449-4a4a-960b-95681a9414a2)
+
+
+
+**TIMING DIAGRAM**
+
+![image](https://github.com/user-attachments/assets/2797deb9-2347-437f-b558-36db921136a7)
+
+
+
+**RESULT**
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
